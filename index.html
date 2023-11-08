@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>  
+    
+<head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Society of Automotive Engineers RUET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/styles.css">
+    <style>body {
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-body-head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+  }
+  
+  .title-head {
+      color: #D51F32;
+  }
+  
+  .title-text {
+      font-size: 18px;
+  }
+  
+  .card-body {
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .card-text {
+      text-align: left;
+  }
+  
+  .card-title {
+      justify-content: left;
+      text-align: left;
+  }
+  
+  .title {
+      font-family: 'Nunito', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      color: #002fff;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  .profile-card-img-top {
+      width: 60%;
+      border-radius: 50%;
+      margin: 0 auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      position: relative;
+      top: 100px;
+      z-index: 1;
+  }
+    
+  .profile-card {
+      padding: 6.5em 0.5em 0.5em;
+      text-align: center;
+      border-radius: 2em;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  }
+    
+  .profile-card-title {
+      font-family: 'Nunito', sans-serif;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-align: left;
+      color: #002fff;
+  }
+    
+  .profile-card-text {
+      text-align: left;
+  }
+    
+  .contact-text {
+      text-align: left;
+  }
+    
+  .btn-primary {
+      border-radius: 2em;
+  }
+  
+  .profile-holder {
+      margin: -80px 0 0 0;
+  }
+  .view-all-button {
+      border-radius: 2em;
+  }
+  .resources-bg {
+      background-color: rgb(234, 235, 238);
+      text-align: center;
+      border-radius: 2em;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .blogs-bg {
+      background-color: rgb(234, 235, 238);
+  }
+  
+  footer {
+      background-color: #121212;
+      color: #f5f5f5;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+  
+  footer a:hover {
+      color: aqua;
+  }
+  
+  .footer-social {
+      margin: 20px 0;
+  }</style>
+  </head>
+</head>
+    
+<body>
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+              <img src="img/logo.png" alt="Logo" width="auto" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#advisors">Advisor Board</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#members">Members</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+        <!-- Home -->
+        <div class="p-3 blogs-bg" id="home">
+            <div class="card mb-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/header.png" class="img-fluid rounded" alt="...">
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body card-body-head">
+                    <h1 class="card-title title-head">Logical Quest</h1>
+                    <p class="card-text title-text">Fuel Your Curiosity, Ignite Your Knowledge! Join a Community of Learners and Experts, Where Your Questions Are Answered, and Your Confidence Soars.</p>
+                    <div class="text-center">
+                      <img src="img/email.png" alt="email" height="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <img src="img/phone.png" alt="phone" height="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <img src="img/facebook.png" alt="facebook" height="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <img src="img/whatsapp.png" alt="whatsapp" height="30">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- Blogs -->
+        <div class="p-3 blogs-bg" id="blog">
+          
+          <div class="container py-4">
+            <div class="row p-3">
+              <div class="col-lg-4 col-sm-12">
+                <h1 class="title">Our Blogs</h1>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <p>
+                  Celebrate our knowledge journey with 'The Blog,' your gateway to a world of insights and inspiration. Discover our latest articles, stories, and expert musings in 'Recent Blog Posts'.
+                </p>
+                
+              <div class="text-center p-3">
+                <a type="button" class="btn text-bg-dark text-center w-75 view-all-button" href="pages/blog.html">View All Blogs</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card">
+                  <img src="https://placehold.co/600x300/png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Recruitment event for all the department</h3>
+                    <p class="card-text">Are you passionate about cars and all things automotive? This time SAE RUET is going to publish a recruitment event for all the department students of 22 series.</p>
+                    <a href="#" class="btn text-bg-dark">View More</a>
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    October 23, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card">
+                  <img src="https://placehold.co/600x300/png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Basic Components of Automobiles</h3>
+                    <p class="card-text">Weekly Session for 20 and 21 Series had been conducted today. Today's session topic was "Basic Components of Automobiles". The session was successfuly held.</p>
+                    <a href="#" class="btn text-bg-dark">View More</a>
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    October 15, 2023
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card">
+                  <img src="https://placehold.co/600x300/png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Our esteemed Advisor Panel</h3>
+                    <p class="card-text">Guiding us on the road to excellence! The fuel that keeps our passion running. Our esteemed Advisor Panel plays a crucial role in shaping SAE RUET's journey.</p>
+                    <a href="#" class="btn text-bg-dark">View More</a>
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    October 07, 2023
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+          
+
+        </div>
+
+
+        <!-- Advisors -->
+        <div class="p-3" id="advisors">
+          <div class="container py-4">
+            <div class="row p-3">
+              <div class="col-lg-4 col-sm-12">
+                <h1 class="title">Our Advisors</h1>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <p>
+                  Our esteemed Advisor Panel plays a crucial role in shaping SAE RUET's journey. Their wisdom and expertise are our compass. Together, we're unstoppable!
+                </p>
+                <p>
+                  Introducing our Advisor panel for 2023-2024.
+                </p>
+                
+                <div class="text-center p-3">
+                  <a type="button" class="btn text-bg-dark text-center w-75 view-all-button" href="pages/advisor.html">View All Advisors</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+  
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+  
+
+        </div>
+
+
+        <!-- Resources -->
+        <div class="p-3" id="resources">
+          <div class="resources-bg p-4">
+
+            <div class="container">
+              <div class="row p-3">
+                <div class="col-lg-4 col-sm-12">
+                  <h1 class="title">Our Resources</h1>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <p>
+                    Dive into the boundless sea of knowledge with 'Explore Our Resources.' Our treasure trove of books is a testament to our commitment to learning. At your fingertips are countless volumes, each a gateway to new worlds and fresh insights.
+                  </p>
+                  
+                  <div class="text-center p-3">
+                    <a type="button" class="btn text-bg-dark text-center w-75 view-all-button" href="pages/resources.html">Explore Our Resources</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="container">
+              <div class="row">
+  
+                <div class="col-lg-3 col-md-4 p-3 text-center">
+                  <ul class="list-group">
+                    <li class="list-group-item text-bg-dark"><h1>Book Name</h1></li>
+                    <li class="list-group-item">Writer Name</li>
+                    <a href="#" class="list-group-item list-group-item-action text-primary">View This Book</a>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 p-3 text-center">
+                  <ul class="list-group">
+                    <li class="list-group-item text-bg-dark"><h1>Book Name</h1></li>
+                    <li class="list-group-item">Writer Name</li>
+                    <a href="#" class="list-group-item list-group-item-action text-primary">View This Book</a>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 p-3 text-center">
+                  <ul class="list-group">
+                    <li class="list-group-item text-bg-dark"><h1>Book Name</h1></li>
+                    <li class="list-group-item">Writer Name</li>
+                    <a href="#" class="list-group-item list-group-item-action text-primary">View This Book</a>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 p-3 text-center">
+                  <ul class="list-group">
+                    <li class="list-group-item text-bg-dark"><h1>Book Name</h1></li>
+                    <li class="list-group-item">Writer Name</li>
+                    <a href="#" class="list-group-item list-group-item-action text-primary">View This Book</a>
+                  </ul>
+                </div>
+  
+              </div>
+            </div>
+    
+          </div>
+        </div>
+
+
+        <!-- Members -->
+        <div class="p-3" id="members">
+          <div class="container py-4">
+            <div class="row p-3">
+              <div class="col-lg-4 col-sm-12">
+                <h1 class="title">Our Members</h1>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <p>
+                  Meet the Heart of Our Community with 'Discover Our Members.' Each individual in our association is a unique thread in the tapestry of SAE RUET.
+                </p>
+                <p>
+                  Together, we form a vibrant, inclusive, and driven community, where every member is valued and celebrated.
+                </p>
+                
+                <div class="text-center p-3">
+                  <a type="button" class="btn text-bg-dark text-center w-75 view-all-button" href="pages/members.html">Discover Our Members</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+  
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 p-3 text-center profile-holder">
+                <img src="https://placehold.co/400x400/png" class="card-img-top profile-card-img-top" alt="...">
+                <div class="card profile-card">
+                  <div class="card-body">
+                    <h5 class="card-title profile-card-title">Name Name Name</h5>
+                    <p class="card-text profile-card-text">18 Series</p>
+                    
+                    <p class="contact-text">
+                      <strong>Contact: </strong><a href="#">123456789</a><br>
+                      <strong>Email: </strong><a href="#">saer@email.com</a>
+                    </p>
+                    <a href="#" class="p-1"><img src="img/email.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/phone.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/linkedin.png" alt="" height="30"></a>
+                    <a href="#" class="p-1"><img src="img/facebook.png" alt="" height="30"></a>
+                    <br><br>
+                    <a href="#" class="btn btn-primary">Direct Message</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+  
+
+        </div>
+
+
+        <!-- Contact -->
+        <div class="blogs-bg mt-5" id="contact">
+          <div class="container p-4 ">
+            <h2><strong>Contact Us</strong></h2>
+              <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center"><button type="submit" class="btn btn-primary w-75">Submit</button></div><br>
+              </form>
+          </div>
+        </div>
+    
+
+
+        <footer>
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-6">
+
+                <h3>Society of Automotive Engineers RUET</h3>
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#advisors">Advisor Board</a>
+                    <a href="#resources">Resources</a>
+                    <a href="#members">Members</a>
+                    <a href="#contact">Contact</a>
+                </div><br>
+              </div>
+
+              <div class="col-md-6">
+
+                <div class="text-center py-3">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512"><style>svg{fill:#f5f5f5}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512"><style>svg{fill:#f5f5f5}</style><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 448 512"><style>svg{fill:#f5f5f5}</style><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                </div><br><br>
+                
+              </div>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <br> &copy; Copyright SAER 2023 &nbsp;&nbsp;&nbsp; All Rights Reserved <br>
+              </div>
+          </div>
+        </div>
+      </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="resources/script.js"></script>
+
+</body>
+    
+    
+</html>
